@@ -1,0 +1,23 @@
+# Phonebook API
+
+- phonebook: 🌐 Deploy --> https://phonebook-empty-horizon-3209.fly.dev/
+  - 3.1: Phonebook backend step 1 --> Create Express app + GET api/persons route
+  - 3.2: Phonebook backend step 2 --> Create GET /info API route
+  - 3.3: Phonebook backend step 3 --> Create GET /api/persons/id for displaying the information for a single phonebook entry
+  - 3.4: Phonebook backend step 4 --> Create DELETE /api/persons/id route for deleting the information for a single phonebook entry
+  - 3.5: Phonebook backend step 5 --> Create POST /api/persons route for adding new phonebook entries\
+  - 3.6: Phonebook backend step 6 --> POST /api/persons error handling
+  - 3.7: Phonebook backend step 7 --> Add Morgan with _tiny_ config
+  - 3.8\*: Phonebook backend step 8 --> Morgan config to log POST requests
+  - 3.9 Phonebook backend step 9 --> Connect with frontend app from Part 2
+  - 3.10 Phonebook backend step 10 --> Deploy phonebook API with fly.io --> https://phonebook-empty-horizon-3209.fly.dev/
+  - 3.11 Full Stack Phonebook --> Fullstack version + local dev environment working
+  - 3.12: Command-line database --> Add connection to MongoDB for adding entries to the phonebook
+  - 3.13: Phonebook database, step 1 --> Get all entries from MongoDB instance + person model module
+  - 3.14: Phonebook database, step 2 --> Add new entries to MongoDB instance
+  - 3.15: Phonebook database, step 3 --> Delete entries from MongoDB instance
+  - 3.16: Phonebook database, step 4 --> Add error handler middleware
+  - 3.17\*: Phonebook database, step 5 --> Add PUT endpoint for updating existing contacts
+  - 3.18\*: Phonebook database step 6 --> Fix /info and /api/persons/:id endpoints to work with MongoDB
+  - 3.19\*: Phonebook database, step 7 --> Add validations for new entries
+  - 3.20\*: Phonebook database, step 8 --> Add phone number validation for new and updated entries
